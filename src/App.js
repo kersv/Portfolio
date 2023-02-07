@@ -1,23 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import Contact from './Components/Contact/contact';
+import Intro from './Components/Intro/intro';
+import Nav from './Components/Nav/nav';
+import Project from './Components/Projects/projects';
+import Skills from './Components/Skills/skills';
+
 
 function App() {
+  //state name,age,hobby
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="header">
+        <Nav/>
       </header>
+        {/* <intro name = this.name, age = this.age, hobby = this.hobby */}
+        <Intro/> 
+        {/* In intro, you can refernece these by calling this.props.age bc its coming in as a prop */}
+        <Project/>
+        <Skills/>
+        <Contact/>
+      <footer>
+      <p>
+        Copyright &copy; 2023 Kevin Xie
+      </p>
+      </footer>
     </div>
   );
 }

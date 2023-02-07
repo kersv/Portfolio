@@ -1,0 +1,8 @@
+.contact-container{
+    background-color: gray;
+    height: 150px;
+}
+.contact-title, .contact-list{
+    margin: 0;
+    padding-top: 30px;
+}
