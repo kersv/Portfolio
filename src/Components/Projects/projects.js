@@ -9,13 +9,13 @@ class Project extends Component{
                 <h2 >Projects</h2>
                 <div className='project'>
                     <div className="ProjName">Codenames</div>
-                    <img className='ProjImg' src="https://assets2.rockpapershotgun.com/codenames.jpg/BROK/resize/1920x1920%3E/format/jpg/quality/80/codenames.jpg" alt></img>
+                    <img className='ProjImg' src="https://assets2.rockpapershotgun.com/codenames.jpg/BROK/resize/1920x1920%3E/format/jpg/quality/80/codenames.jpg" alt="CodenamesPhoto"></img>
                     <div className="desc">
                         <p className="techStack">
-                            TechStack: React, Javascript, Html, Css, NodeJs, Bootstrap, Django
+                            TechStack: React, Javascript, Html, Css, Bootstrap, NodeJs and Django
                         </p>
                         <p className='projDesc'> 
-                            Aute dolore proident eiusmod consequat est sint eu. Aute velit deserunt nulla dolore voluptate enim eu labore aute consequat et. Culpa reprehenderit eiusmod magna nisi anim culpa in.
+                        Codenames is a game of guessing which codenames (i.e., words) in a set are related to a hint-word given by another player. The game is played with least four players, or any even number of players. Players are split into two teams: blue and red.
                         </p>
                     </div>
                 </div>
