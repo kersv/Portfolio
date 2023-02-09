@@ -5,12 +5,12 @@ class Nav extends Component{
     render(){
         return(
             <div className='topNav' id='nav'>
-                <ul className='navContainer'>
-                    <a><li className='navItem'>Home</li></a>
-                    <a><li className='navItem'>Resume</li></a>
-                    <a href='#project'><li className='navItem'>Project</li></a>
-                    <a href='#contact'><li className='navItem'>Contact</li></a>
-                </ul>
+                <div className='navContainer'>
+                    <a><div className='navItem'>Home</div></a>
+                    <a download href='/KevinXie.pdf'><div className='navItem'>Resume</div></a>
+                    <a href='#project'><div className='navItem'>Project</div></a>
+                    <a href='#contact'><div className='navItem'>Contact</div></a>
+                </div>
             </div>
         )
     }

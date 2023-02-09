@@ -10,16 +10,13 @@
   z-index: 1;
 }
 
-.topNav{
-  justify-content: center;
-}
-
-li{
-  list-style-type: none;
+.navItem{
   display: inline-block;
   padding: 10px;
 }
-
+.topNav{
+  justify-content: center;
+}
 a{
   text-decoration: none;
   color: black;

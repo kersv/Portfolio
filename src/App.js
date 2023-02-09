@@ -7,7 +7,7 @@ import Skills from './Components/Skills/skills';
 
 
 function App() {
-  //state name,age,hobby
+
   return (
     <div className="App">
       <header className="header">
@@ -21,7 +21,7 @@ function App() {
         <Contact/>
       <footer>
       <p>
-        Copyright &copy; 2023 Kevin Xie
+        Copyright &copy; 2023 Kevin Xie. All rights are resevered
       </p>
       </footer>
     </div>

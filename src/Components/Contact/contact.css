@@ -1,8 +1,20 @@
 .contact-container{
     background-color: gray;
-    height: 150px;
+    height: 30vh;
 }
 .contact-title, .contact-list{
     margin: 0;
-    padding-top: 30px;
+    padding-top: 40px;
 }
+
+.contact-item{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+
+
+

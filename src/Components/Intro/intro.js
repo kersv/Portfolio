@@ -5,7 +5,10 @@ class Intro extends Component{
     render(){
         return(
             <div className='Intro' >
-                <div className='name'>Kevin Xie</div> 
+                <div className='intro-desc'>
+                    <h2 className='name'>Kevin Xie</h2>
+                    <p>Web Developer</p> 
+                </div>
             </div>
         )
     }
