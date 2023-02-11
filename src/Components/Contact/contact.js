@@ -1,17 +1,21 @@
 import React, {Component} from "react";
+import {FaGithub, FaLinkedin} from 'react-icons/fa'
 import './contact.css'
 
 class Contact extends Component{
     render(){
         return(
             <div className="contact-container" id="contact">
-                <h2 className="contact-title">Contact</h2>
+                <h2 className="contact-title">Kev.xie24@gmail.com</h2>
                 <div className="contact-list">
-                    <img className="contact-item" src='https://cdn-icons-png.flaticon.com/512/25/25231.png' alt="contact-icon"></img>
-                    <img className="contact-item" src='https://cdn-icons-png.flaticon.com/512/145/145807.png' alt="contact-icon"></img>
-                    <img className="contact-item" src='https://www.seekpng.com/png/full/41-415678_email-icon-vector-circle.png' alt="contact-icon"></img>
-                    <img className="contact-item" src='https://cdn-icons-png.flaticon.com/512/6596/6596115.png' alt="contact-icon"></img>
+                    <a href="https://github.com/kersv" target='_blank' rel='noreferrer' className="icon-box">
+                        <FaGithub className='icon-item'/>
+                    </a>
+                    <a href="https://www.linkedin.com/in/kevin-xie-55b49418b/" target='_blank' rel='noreferrer' className="icon-box">
+                        <FaLinkedin className='icon-item'/>
+                    </a>
                 </div>
+
             </div>
         )
     }

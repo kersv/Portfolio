@@ -1,9 +1,15 @@
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 60px;
+}
+
 .header {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: rgb(247, 209, 183);
+  height: 8vh;
   position: fixed;
   top: 0;
   width: 100%;
@@ -16,6 +22,7 @@
 }
 .topNav{
   justify-content: center;
+  transition-delay: 1.5s;
 }
 a{
   text-decoration: none;

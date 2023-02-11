@@ -1,19 +1,47 @@
 .contact-container{
-    background-color: gray;
+    background-color: rgb(240, 211, 175);
     height: 30vh;
 }
 .contact-title, .contact-list{
     margin: 0;
     padding-top: 40px;
 }
-
-.contact-item{
-    list-style-type: none;
-    display: inline-block;
+.contact-title{
     margin: 0;
-    width: 50px;
-    height: 50px;
-    padding: 10px;
+    content: '6463318607';
+}
+.icon-item{
+    margin: 0 10px 0 10px;
+    color: rgb(0, 0, 0);
+    position: relative;
+}
+.icon-box {
+    width: 80px;
+    height: 80px;
+    background-color: #ffffff;
+    text-align: center;
+    line-height: 80px;
+    font-size: 35px;
+    margin: 0 10px;
+    display: inline-block;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #000000;
+    z-index: 1;
+}
+
+.icon-box:nth-child(1):hover{
+    background-color: #425780;
+}
+.icon-box:nth-child(2):hover{
+    background-color: #0077b5
+}
+.icon-box:nth-child(3):hover {
+    background-color: #dd4b39;
+}
+.icon-box:nth-child(4):hover{
+    background-color: #dd5a7b;
 }
 
 

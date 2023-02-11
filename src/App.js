@@ -13,14 +13,12 @@ function App() {
       <header className="header">
         <Nav/>
       </header>
-        {/* <intro name = this.name, age = this.age, hobby = this.hobby */}
         <Intro/> 
-        {/* In intro, you can refernece these by calling this.props.age bc its coming in as a prop */}
         <Project/>
         <Skills/>
         <Contact/>
       <footer>
-      <p>
+      <p className='copyright'>
         Copyright &copy; 2023 Kevin Xie. All rights are resevered
       </p>
       </footer>
