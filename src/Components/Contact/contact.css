@@ -1,6 +1,6 @@
 .contact-container{
-    background-color: rgb(240, 211, 175);
-    height: 30vh;
+    background-color: #3E545D;
+    height: 15vh;
 }
 .contact-title, .contact-list{
     margin: 0;
@@ -29,20 +29,12 @@
     overflow: hidden;
     border: 3px solid #000000;
     z-index: 1;
+    transition: .7s;
 }
-
 .icon-box:nth-child(1):hover{
     background-color: #425780;
 }
 .icon-box:nth-child(2):hover{
     background-color: #0077b5
 }
-.icon-box:nth-child(3):hover {
-    background-color: #dd4b39;
-}
-.icon-box:nth-child(4):hover{
-    background-color: #dd5a7b;
-}
-
-
 

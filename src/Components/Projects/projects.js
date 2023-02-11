@@ -17,9 +17,11 @@ class Project extends Component {
         };
         return(
             <div className='project-container' id="project">
-                <h2 >Projects</h2>
+                <h2 className="project-header" >Projects</h2>
                 <div className='project'>
-                    <div className="ProjName">Codenames</div>
+                    <a href="https://github.com/amyghotra/codenames" target='_blank' rel="noreferrer">
+                        <div className="ProjName">Codenames</div>
+                    </a>
                     <div className="slider">
                         <Slider {...settings}>
                             <img className='ProjImg' src="https://i.imgur.com/tukS1cr.png" alt="CodenamesPhoto"></img>
@@ -29,13 +31,14 @@ class Project extends Component {
                     </div>
                     <div className="desc">
                         <p className="techStack">
-                            TechStack: React, Javascript, Html, Css, Bootstrap, NodeJs and Django
+                            TechStack: React, Javascript, Html, Css, Bootstrap, NodeJs, Heroku and Django
                         </p>
                         <p className='projDesc'> 
                             Codenames is a game of guessing which codenames (i.e., words) in a set are related to a hint-word given by another player. The game is played with least four players, or any even number of players. Players are split into two teams: blue and red.
                         </p>
                     </div>
-                </div><hr/>
+                </div>
+
                 <div className='project'>
                     <div className="ProjName">Codenames</div>
                     <div className="slider">
@@ -53,7 +56,7 @@ class Project extends Component {
                             Codenames is a game of guessing which codenames (i.e., words) in a set are related to a hint-word given by another player. The game is played with least four players, or any even number of players. Players are split into two teams: blue and red.
                         </p>
                     </div>
-                </div><hr/>
+                </div>
         </div>
         )
     }

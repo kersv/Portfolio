@@ -1,8 +1,10 @@
 .skill-container{
     
     height: 40vh;
-    background-color: rgb(248, 219, 182);
+    background-color: #3E545D;
     text-align: center;
+    
+
 }
 
 .topic{
@@ -18,6 +20,7 @@
 .icon-container{
     display: inline-block;
     padding: 10px;
+    color: white;
 }
 .grid{
     padding: 30px;

@@ -8,23 +8,29 @@ html{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgb(247, 209, 183);
+  background-color: #08151B;
   height: 8vh;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1;
+  justify-content: center;
+  transition-delay: 1.5s;
+  box-shadow: 0 5px 5px -2px rgba(0,0,0,.3);
+  
 }
 
 .navItem{
   display: inline-block;
   padding: 10px;
+  transition: 1s;
 }
-.topNav{
-  justify-content: center;
-  transition-delay: 1.5s;
+
+.navItem:hover{
+  color: rgb(90, 141, 235);
 }
+
 a{
   text-decoration: none;
-  color: black;
+  color: white
 }

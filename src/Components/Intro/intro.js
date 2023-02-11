@@ -7,7 +7,7 @@ class Intro extends Component{
             <div className='Intro' id='intro'>
                 <div className='intro-desc'>
                     <h2 className='name'>Kevin Xie</h2>
-                    <p>Web Developer</p> 
+                    <p className='job-desc'>Web Developer</p> 
                 </div>
             </div>
         )
